@@ -7,18 +7,17 @@ Original file is located at
     https://colab.research.google.com/drive/1ExUkfUaxhLfJo72A7uUYFALuFLFcv8V8
 """
 
-pip install streamlit
-
+# pip install streamlit
+# pip install matplotlib
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn import svm
-from sklearn.metrics import accuracy_score
-
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+from sklearn.preprocessing import StandardScaler 
+from sklearn.model_selection import train_test_split 
+from sklearn import svm 
+from sklearn.metrics import accuracy_score 
 # Page Config
 st.set_page_config(page_title="Diabetes Prediction", layout="wide")
 
